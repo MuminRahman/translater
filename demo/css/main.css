@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding:0;
+  overflow-x: hidden;
+  font-family: 'Roboto Slab', serif;
+}
+#landing{
+
+}
+.title{
+  text-align: center;
+  font-size: 67px;
+  font-family: 'Pacifico', cursive;
+}
+.container{
+  width: 30%;
+  height: 600px;
+  margin: 0 auto;
+  padding: 10px
+}
+.container .left{
+  float:left;
+  width:50%;
+  height: 600px;
+  box-sizing: border-box;
+}
+.container .right{
+  float:right;
+  width: 50%;
+  height: 600px;
+  box-sizing: border-box;
+
+}
+.phone {
+  float: right;
+  padding-right: 10%;
+}
+form{
+  padding: 10px 40px;
+  text-align: center;
+}
+.formbox{
+  background-color: #f7f7f7;
+  border: 1px solid #e2e2e2;
+  box-sizing: border-box;
+  height: 480px;
+  margin-bottom: 15px;
+  padding-right: 10px;
+}
+input[type='text'] {
+    padding: 9px 0px 7px;
+    width: 100%;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 7px;
+}
+#landing form input[type='text'] {
+  padding-left: 10px;
+  padding-right: -5px;
+}
+input[type='submit'] {
+    padding: 9px 8px 7px;
+    background-color: #000;
+    color: #fff;
+    border: 0px !important;
+    width: 100%;
+    cursor: pointer;
+}
+a:-webkit-any-link {
+  color: #42f486;
+}
+.apple{
+  width:49.7%;
+  float: left;
+  height: 50px;
+}
+.android {
+  width: 49.7%;
+  float: right;
+  height:50px;
+}
+.app{
+  text-align: center;
+}
